@@ -28,7 +28,7 @@ function preload() {
     queue.installPlugin(createjs.Sound);
     queue.loadManifest([{
         id: "enemiesSS",
-        src: 'army (4).json'
+        src: 'new.json'
 	}, {
         id: 'sound',
         src: 'tanklyd.mp3'
@@ -55,7 +55,7 @@ function setup() {
     enemiesSS = new createjs.SpriteSheet(queue.getResult("enemiesSS"))
     explosionSS = new createjs.SpriteSheet(queue.getResult("explosionSS"))
         //    explosionSS = new createjs.SpriteSheet(queue.getResult("explosionSS"))
-    hero = new createjs.Sprite(enemiesSS, "sprite4"); // this crap isnt working if you see this Jonas. you will prob do. I tried everything. Prob some mistakes made with my json file. 
+    hero = new createjs.Sprite(enemiesSS, "sprite1");
     hero.width = 16;
     hero.height = 16;
     hero.x = 300 - (72 / 2);
@@ -97,7 +97,7 @@ function nextLevel() {
         // Add boss
     if (settings.level == 3) {
         console.log("we are at lvl 3 ");
-        boss = new createjs.Sprite(enemiesSS, "sprite4");
+        boss = new createjs.Sprite(enemiesSS, "sprite3");
         boss.width = 16;
         boss.height = 16;
         boss.x = Math.floor(Math.random() * 550);
@@ -114,7 +114,7 @@ function nextLevel() {
 
 function addEnemies() {
     for (var i = 0; i < settings.level; i++) {
-        var temp = new createjs.Sprite(enemiesSS, "sprite5");
+        var temp = new createjs.Sprite(enemiesSS, "sprite2");
         temp.width = 16;
         temp.height = 16;
         temp.x = Math.floor(Math.random() * 550);
