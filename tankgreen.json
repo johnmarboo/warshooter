@@ -1,0 +1,22 @@
+{
+
+    "images": [
+    "tankgreen.png"
+],
+
+    "frames": [
+    [1, 1, 83, 78, 0, 0, 0]
+],
+
+    "animations": {
+        "hi": {
+            "frames": [0]
+        }
+    },
+
+    "texturepacker": [
+        "SmartUpdateHash: $TexturePacker:SmartUpdate:244a4225f472c00c22584fe0f52ab732:e9548b54437f41b0d9f31da08871d105:84e02da6a2dddf103b01ac85a77b8afa$",
+        "Created with TexturePacker (https://www.codeandweb.com/texturepacker) for EaselJS"
+]
+
+}

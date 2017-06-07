@@ -1,0 +1,20 @@
+{
+
+"images": [
+    "tankb.png"
+],
+
+"frames": [
+    [1, 1, 170, 260, 0, 0, 0]
+],
+
+"animations": {
+    "tankbody": { "frames": [0] }
+},
+
+"texturepacker": [
+        "SmartUpdateHash: $TexturePacker:SmartUpdate:4dd21c646a7fa01ba7345863600818ef:afdcabcbad75a6077189e0507b011839:54976ef063870adf86460bbb6df81d09$",
+        "Created with TexturePacker (https://www.codeandweb.com/texturepacker) for EaselJS"
+]
+
+}

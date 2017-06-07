@@ -1,0 +1,20 @@
+{
+
+"images": [
+    "springluften.png"
+],
+
+"frames": [
+    [1, 1, 984, 943, 0, -26, -81]
+],
+
+"animations": {
+    "boom3": { "frames": [0] }
+},
+
+"texturepacker": [
+        "SmartUpdateHash: $TexturePacker:SmartUpdate:b6d7db18c6fffb404422ce4f388c9d43:f53ec2c4ee05ff214498c84f19855ade:654734e3435de6db2b64c9744e7a20fb$",
+        "Created with TexturePacker (https://www.codeandweb.com/texturepacker) for EaselJS"
+]
+
+}

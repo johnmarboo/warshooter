@@ -1,0 +1,20 @@
+{
+
+"images": [
+    "mo.png"
+],
+
+"frames": [
+    [1, 1, 140, 165, 0, 0, 0]
+],
+
+"animations": {
+    "mo": { "frames": [0] }
+},
+
+"texturepacker": [
+        "SmartUpdateHash: $TexturePacker:SmartUpdate:4d0b12181fe308f403e86a83703afca0:5a0186b8d5a34d51e746a8141c02a7f5:72e78016674c830b4ba0c16688b5a199$",
+        "Created with TexturePacker (https://www.codeandweb.com/texturepacker) for EaselJS"
+]
+
+}

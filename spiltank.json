@@ -1,0 +1,20 @@
+{
+
+"images": [
+    "spiltank.png"
+],
+
+"frames": [
+    [1, 1, 355, 290, 0, -44, -14]
+],
+
+"animations": {
+    "spiltank": { "frames": [0] }
+},
+
+"texturepacker": [
+        "SmartUpdateHash: $TexturePacker:SmartUpdate:a0894d7d4f112b7a37dce891d5e3e468:41398d8a74b6982fd29cb3b752ad4dce:bb34ae3afd1a4ebe66ca1848b0611354$",
+        "Created with TexturePacker (https://www.codeandweb.com/texturepacker) for EaselJS"
+]
+
+}
